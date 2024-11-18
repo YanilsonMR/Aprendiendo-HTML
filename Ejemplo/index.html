@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer intento</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
-        table, tr, th, td{
-            border : 1px solid black;
-        }
+        
     </style>
 </head>
 
@@ -16,11 +15,16 @@
     <header>Ejemplo</header>
     <main>
         <h1>Yanilson Moreno Ramos</h1>
-        <img src="img/imagen 1.png" alt="Imagen de ejemplo">
-        <h2>
+        <div class="imagenes">
+            <img src="img/imagen 1.png" alt="Imagen de ejemplo">
+            <br>
             <a href="img/imagen 2.png"> Ir a la segunda imagen de ejemplo</a>
+            <br>
             <a href="https://www.google.com/"> Ir al buscador de google</a>
+        </div>
+        <div class="Listas">
             <article>
+                <br>
                 Lista desordenada
                 <h1>
                     Esta es la lista del mercado
@@ -37,10 +41,8 @@
                     <li>Lacteos</li>
                 </ul>
             </article>
-
             <article>
                 LIsta Ordenada (es la misma lista anterior)
-                <h1>
                     <ol>
                         <li>Verduras</li>
                         <ol start="20">
@@ -52,9 +54,9 @@
                         <li>carnes</li>
                         <li>Lacteos</li>
                     </ol>
-                </h1>
             </article>
-
+        </div>
+        <div class="Tabla">
             <article>
                 <p>Tabla de Verduras</p>
                 <p>
@@ -77,29 +79,33 @@
                     </table>
                 </p>
             </article>
-
-            <article>
-                <p>Formulario basico</p>
+        </div>            
+        <div class="Formulario">
+            <section class="formulario">
+                <h3>Formulario basico</h3>
                 <p>
                     <form>
-                        <label for="nombreestudiante">Nombre</label>
-                        <input type="Nombre" id="nombreestudiante" name="estudiante" placeholder="Nombre del estudiante">
+                        <label for="nombreestudiante"></label>
+                        <input class="texto" type="tex" id="nombreestudiante" name="estudiante" placeholder="Nombre del estudiante">
                         <br>
-                        <label for="apellidoestudiante">Apellido</label>
-                        <input type="Apellido" required id="apellidoestudiante" name="apelldo" placeholder="Apellido del estudiante" typ>
-                        <br>
-                        <label for="generoestudiante">Elije el genero del estudiante</label>  
-                        <select name="Genero" id="generoestudiante">
+                        <label for="apellidoestudiante"></label>
+                        <input class="texto" type="text" required id="apellidoestudiante" name="apelldo" placeholder="Apellido del estudiante" typ>
+                        <br>   
+                        <label for="emailestudiante"></label>
+                        <input class="texto" type="email" required id="emailestudiante" name="correo" placeholder="Correo del estudiante">  
+                        <br>                   
+                        <label for="generoestudiante">Genero del estudiante</label>  
+                        <select class="texto1" name="tex" id="generoestudiante">
                             <option value="">Masculino</option>
                             <option value="">Femenino</option>
                             <option value="">Otro</option>
                             <option value="">Prefiero no responder</option>
                         </select>
-                        <input type="submit">                    
+                        <input class="boton" type="submit">                    
                     </form>
                 </p>
-            </article>
-        </h2>
+            </section>                
+        </div>           
     </main>
 </body>
 

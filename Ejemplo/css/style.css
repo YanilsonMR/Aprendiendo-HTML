@@ -1,0 +1,91 @@
+style table, tr, th, td{
+    border : 1px solid black;
+    
+}
+
+table{
+    font-size: 40px;
+}
+
+th{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 157, 0, 0.893);
+    font-style: italic;
+}
+
+td{
+    color: #aaacaf;
+    font-style: oblique;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario{
+    width: 600px;
+    background: #0ab269;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: auto;
+    margin-top: auto;
+    border-radius: 8px;
+    bottom: 4px;  
+}
+
+.formulario h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: auto;
+    background: #0ab269;
+    text-align: 100%;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background: #0ab269;
+    text-align: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.formulario .boton{
+    width: 100%;
+    border-radius: 8px;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+
+
+
+
+
+
