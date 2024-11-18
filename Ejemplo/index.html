@@ -1,55 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer intento</title>
+    <style>
+        table, tr, th, td{
+            border : 1px solid black;
+        }
+    </style>
 </head>
+
 <body>
     <header>Ejemplo</header>
-    <h1>Yanilson Moreno Ramos</h1>
-    <img src="img/imagen 1.png" alt="Imagen de ejemplo">
-    <h2> 
-
-        <a href="img/imagen 2.png"> Ir a la segunda imagen de ejemplo</a>
-        <a href="https://www.google.com/"> Ir al buscador de google</a>
-        <article>
-            Lista desordenada
-            <h1> 
-                Esta es la lista del mercado
-            </h1>
-            <ul>
-                <li>Verduras</li>
+    <main>
+        <h1>Yanilson Moreno Ramos</h1>
+        <img src="img/imagen 1.png" alt="Imagen de ejemplo">
+        <h2>
+            <a href="img/imagen 2.png"> Ir a la segunda imagen de ejemplo</a>
+            <a href="https://www.google.com/"> Ir al buscador de google</a>
+            <article>
+                Lista desordenada
+                <h1>
+                    Esta es la lista del mercado
+                </h1>
+                <ul>
+                    <li>Verduras</li>
                     <ul>
                         <li>Tomate</li>
                         <li>Cebolla...</li>
                     </ul>
-                <li>Granos</li>
-                <li>Carnes frias</li>
-                <li>carnes</li>
-                <li>Lacteos</li>
-            </ul>
-        </article>
-        <article>
-            LIsta Ordenada (es la misma lista anterior)
-            <h1>
-                <ol>
-                    <li>Verduras</li>
-                    <ol start="20">
-                        <li><a href="img/tomate.png"> Tomate</a></li>
-                        <li>Cebolla...</li>
+                    <li>Granos</li>
+                    <li>Carnes frias</li>
+                    <li>carnes</li>
+                    <li>Lacteos</li>
+                </ul>
+            </article>
+
+            <article>
+                LIsta Ordenada (es la misma lista anterior)
+                <h1>
+                    <ol>
+                        <li>Verduras</li>
+                        <ol start="20">
+                            <li><a href="img/tomate.png"> Tomate</a></li>
+                            <li>Cebolla...</li>
+                        </ol>
+                        <li>Granos</li>
+                        <li>Carnes frias</li>
+                        <li>carnes</li>
+                        <li>Lacteos</li>
                     </ol>
-                <li>Granos</li>
-                <li>Carnes frias</li>
-                <li>carnes</li>
-                <li>Lacteos</li>
-                </ol>
-            </h1>
-        </article>
+                </h1>
+            </article>
 
-    </h2>
-    
+            <article>
+                <p>Tabla de Verduras</p>
+                <p>
+                    <table>
+                        <tr>
+                            <th>Verduras</th>
+                            <th>Granos</th>
+                            <th>Carnes Frias</th>
+                        </tr>
+                        <tr>
+                            <td>Tomate</td>
+                            <td>Garbanzos</td>
+                            <td>Lomo de cerdo</td>
+                        </tr>
+                        <tr>
+                            <td>Cebolla</td>
+                            <td>Lentejas</td>
+                            <td>Carne molida</td>
+                        </tr>
+                    </table>
+                </p>
+            </article>
 
-
+            <article>
+                <p>Formulario basico</p>
+                <p>
+                    <form>
+                        <label for="nombreestudiante">Nombre</label>
+                        <input type="Nombre" id="nombreestudiante" name="estudiante" placeholder="Nombre del estudiante">
+                        <br>
+                        <label for="apellidoestudiante">Apellido</label>
+                        <input type="Apellido" required id="apellidoestudiante" name="apelldo" placeholder="Apellido del estudiante" typ>
+                        <br>
+                        <label for="generoestudiante">Elije el genero del estudiante</label>  
+                        <select name="Genero" id="generoestudiante">
+                            <option value="">Masculino</option>
+                            <option value="">Femenino</option>
+                            <option value="">Otro</option>
+                            <option value="">Prefiero no responder</option>
+                        </select>
+                        <input type="submit">                    
+                    </form>
+                </p>
+            </article>
+        </h2>
+    </main>
 </body>
+
 </html>
